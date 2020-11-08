@@ -1,0 +1,64 @@
+<html>
+
+    <head>
+        <script type="text/javascript" src = "manipulation.js"> </script>
+        <title>JavaScript manipulation</title>
+        <link href ="styles.css" rel = "stylesheet">
+    </head>
+        <body>
+
+            <p id ="changes" style = "background-color:red" style = "border-color:blue" style = border-width:40px;>
+                    The game was level and the captain of Man City got a penalty. But he missed it HAHA!
+            </p>
+
+            <div class="border">
+                <ul>
+                    <br><br>
+                    <h3>Border Inputs (0-255)</h3>
+                </ul>
+                <ul>
+                    Red
+                    <input id="redBorder" type = "text">
+                </ul>
+                <ul>
+                    Blue
+                    <input id ="blueBorder" type = "text">
+                </ul>
+                <ul>
+                    Green
+                    <input id="greenBorder" type = "text">
+                </ul>
+                <ul>
+                    Width
+                    <input id ="widthBorder" type = "text">
+                </ul>
+            </div>
+
+            <div class="background">
+                    <ul>
+                        <br><br><br>
+                        <h3>Background Color Inputs (0-255)</h3>
+                    </ul>
+                    <ul>
+                        Red
+                        <input id="redBackground" type = "text">
+                    </ul>
+                    <ul>
+                        Blue
+                        <input id="blueBackground" type = "text">
+                    </ul>
+                    <ul>
+                        Green
+                        <input id="greenBackground" type = "text">
+                    </ul>
+
+                </div>
+
+                <div>
+                    <br><br>
+                    <button id="updatecolors" onclick = changeColors()> Update Colors</button>
+                </div>
+        </body>
+
+
+</html>

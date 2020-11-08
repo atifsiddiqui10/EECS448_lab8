@@ -1,0 +1,62 @@
+<html = "en">
+<head>
+    <title></title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><center>Liverpool SlideShow</center></h1>
+    </header>
+
+    <!-- what contains thhe slideshow -->
+<div class = "slides">
+
+    <!-- full width images with number and caption text -->
+    <div class = "slideBox fade">
+        <div class = "numbertext">1 / 5</div>
+        <img src = "Image1.jpg" height="500" width="1000">
+        <div class ="text">Premier League Winners</div>
+    </div>
+
+    <div class = "slideBox fade">
+        <div class = "numbertext">2 / 5</div>
+        <img src = "Image2.jpg" height="500" width="1000">
+        <div class ="text">Logo</div>
+    </div>
+
+    <div class = "slideBox fade">
+        <div class = "numbertext">3 / 5</div>
+        <img src = "Image3.jpg" height="500" width="1000">
+        <div class ="text">Mo Salah</div>
+    </div>
+
+    <div class = "slideBox fade">
+        <div class = "numbertext">4 / 5</div>
+        <img src = "Image4.jpg" height="500" width="1000">
+        <div class ="text">Boss and Captain </div>
+    </div>
+
+    <div class = "slideBox fade">
+            <div class = "numbertext">4 / 5</div>
+            <img src = "Image5.jpg" height="500" width="1000">
+            <div class ="text"> Champions League Winners</div>
+    </div>
+    <!-- buttons -->
+    <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class = "next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<!-- the circles -->
+<div style = "text-align: center">
+    <span class = "dot" onclick="currentSlide(1)"></span>
+    <span class = "dot" onclick="currentSlide(2)"></span>
+    <span class = "dot" onclick="currentSlide(3)"></span>
+    <span class = "dot" onclick="currentSlide(4)"></span>
+    <span class = "dot" onclick="currentSlide(5)"></span>
+</div>
+
+</body>
+<script src = "SlideShow.js"></script>
